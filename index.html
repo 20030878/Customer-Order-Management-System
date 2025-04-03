@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Order Management System</title>
+    <!-- Linking external CSS stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Café</h1>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <!-- Links to different sections of the website -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#orders">Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Discover Our Best Drinks & Snacks</h2>
+        <p>Browse and place an order easily.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <!-- Placeholder for dynamically populated product list -->
+        <div class="product-list" id="product-list"></div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <!-- Placeholder for dynamically populated cart items -->
+        <div id="cart-list"></div>
+        <!-- Checkout button to initiate checkout process -->
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <!-- Orders Section -->
+    <section id="orders">
+        <h2>Your Orders</h2>
+        <!-- Placeholder for displaying user's orders -->
+        <div id="orders-list"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer information for the website -->
+        <p>&copy; 2025 Café Management System</p>
+    </footer>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="app.js"></script>
+</body>
+</html>
