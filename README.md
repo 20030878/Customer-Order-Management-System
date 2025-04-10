@@ -18,6 +18,7 @@ Place an order (with a basic alert confirmation).
 - HTML
 - CSS
 - JavaScript
+- Python
 
 
 /Customer-Order-Management-System
